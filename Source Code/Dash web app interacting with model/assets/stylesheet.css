@@ -1,0 +1,75 @@
+H1 {
+    text-align: center;
+    color: #d7e0f9;
+    width: 100%;
+}
+
+.h3 {
+    display: block;
+    font-size: 30px;
+}
+
+.OuterDiv {
+    background-color: #204C6E;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.ContentDiv {
+    background-color: #4586B3;
+    padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    border-radius: 10px;
+    display: inline-flex;
+    width: 98%;
+}
+
+.InnerDiv {
+    width: 40%;
+}
+
+.ParameterDiv {
+    width: 100%;
+    display: inline-flex;
+}
+
+.LabelDiv {
+    text-align: left;
+    width: 50%;
+    font-size: 18px;
+}
+
+.InputDiv {
+    text-align: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 1px;
+}
+
+.ImageDiv {
+    width: 60%;
+    text-align: right;
+}
+
+.ButtonDiv {
+    text-align: center;
+}
+
+button {
+    background-color: #D7E0F9;
+    border: 1px;
+    padding: 15px 32px;
+    font-size: 25;
+    color: black;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+  
+button:hover {
+    background-color: #204C6E; 
+    color: white;
+}
